@@ -64,7 +64,7 @@ namespace NumericalAnalysis
         static AnalysisResult FixedPointIterationApproximation(double a, double b, double epsilon)
         {
             int iterations = 0;
-            double lastX = 1;
+            double lastX = b;
             double x = lastX;
             do
             {
