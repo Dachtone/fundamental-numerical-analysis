@@ -15,9 +15,9 @@ namespace NumericalAnalysis
             double h = (b - a) / n;
             double edgeLeft = Function(a);
             double edgeRight;
-            for (int i = 1; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
-                edgeRight = Function(a + i * h);
+                edgeRight = Function(a + (i + 1) * h);
                 sum += (edgeLeft + edgeRight) / 2.0 * h;
                 edgeLeft = edgeRight;
             }
