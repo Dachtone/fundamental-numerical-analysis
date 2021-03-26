@@ -24,7 +24,7 @@ namespace NumericalAnalysis
     {
         static double Function(double x)
         {
-            return Math.Sin(0.5  + x) - 2.0 * x + 0.5;
+            return Math.Sin(0.5 + x) - 2.0 * x + 0.5;
         }
 
         static double Derivative(double x)
