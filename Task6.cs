@@ -28,7 +28,7 @@ namespace NumericalAnalysis
 
             double a = 1.0;
             double b = 100.0;
-            const double exact = 2817.8;
+            const double exact = 2817.8423474439187;
             int n = GetUserIntWithMessage("n");
 
             Console.WriteLine();
